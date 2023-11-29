@@ -88,6 +88,29 @@ Object-Oriented Programming (OOP) is a programming paradigm that revolves around
 
 - Implementation Independence: Allows changes to the implementation without affecting the rest of the system.
 
+## Input-Process-Output
+
+Now that we have talked about the basic of OOP, let's understand what is computing and what we want overall from a system. We can denote this into three simple phases: 
+
+1) Input
+2) Process
+3) Output
+
+You can envsion this as a math style problem, after all computer sciecne orginated from mathematics, where the input would be some values that we input as a user, the process is some operation that is conducted with the inputted values, and finally the result is something we are looking for. For example, say we have: 
+
+`x + y = z`
+
+Here "x" and "y" are our "input", the "+" is the process that we are conducting on the inputted values and the "z" is the result.
+
+Here are some more examples to start thinking like programmer for simple problems that you may encounter. 
+
+`x - y = z`
+`x * y = z`
+`x / y = z`
+`x % y = z`
+
+All these operations should be familiar besides "%", I would research what this operation is in computer science and see what this process does and what type of output it would give with certain numbers. 
+
 ## What is Java? 
 
 So since we talked a lot about OOP, let's talk about Java. Java is a popular programming language that was created in 1995 by James Gosling. Java is a high-level, versatile, and widely used programming language that is designed to be platform-independent, meaning that Java programs can run on any device that has the Java Virtual Machine (JVM) installed. Now owned by Oracle, Java has become one of the most popular programming languages due to its simplicity, object-oriented features, and wide range of applications. 
