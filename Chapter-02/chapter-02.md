@@ -53,3 +53,16 @@ Hence, both have their places on formatting outputs to the user.
 
 ## Different Data Types
 
+As you can see from above, we were able to make Java speak to us. Well sort of, what we were printing to the screen is known as a certain data type called a `String` and this is how the computer will see this. There are many other data types such as numbers, decimals, characters, and much more since our world is a bit complicated and a computer's world is just a bunch of 0s and 1s. We must take into account each of these data types. So let's talk about different data types and their properties. 
+
+There are two main types of data, primitive data types and non-primitive data types. Primitive data types consist of byte, short, int, long, double, boolean, and char. Non-primitive data tpyes include String, Arrays, and Classes. 
+
+## Primitive Data Types
+
+### Byte
+
+A byte is probably the simplest data type there is. This data type has a size of 1 byte or 8 bits in other words. This means that the data type can hold numbers from -128 to 127 or you can think of this as power of 2s in that 2^8 is 1 byte. 
+
+### Short
+
+// Come back to, need to figure out how to organize this. 
