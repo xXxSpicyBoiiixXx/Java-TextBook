@@ -1,4 +1,4 @@
-# Introduction
+#Introduction
 
 As you guys can see there is a lot to learn about Java and OOP and I wanted to congratulate you on your first program with "Hello World", here we will go a little deeper on the synatx and some of the things we can implement with output. Another great question is, "since we can put some output on the screen, couldn't we get user input?" That is entirely correct! So we will be leveraging some user input as well as various data types since we might want to add things like numbers, letters, special characters! The sky is the limit with user input or even predefined input, but before that we must talk about different data types and how the computer sees that data types. 
 
@@ -61,8 +61,12 @@ There are two main types of data, primitive data types and non-primitive data ty
 
 ### Byte
 
-A byte is probably the simplest data type there is. This data type has a size of 1 byte or 8 bits in other words. This means that the data type can hold numbers from -128 to 127 or you can think of this as power of 2s in that 2^8 is 1 byte. 
+A byte is probably the simplest data type there is besides a boolean. This data type has a size of 1 byte or 8 bits in other words. This means that the data type can hold numbers from -128 to 127 or you can think of this as power of 2s in that 2^8 is 1 byte. 
 
 ### Short
 
-// Come back to, need to figure out how to organize this. 
+A short is the next one up from a singe byte. A shirt consists of 2 bytes or 16 bits. This means that a short can hold up numbers from -32768 to 32767 or you can think of this similary as we did with a byte where we can use the power of 2s, so 2^16 is 2 bytes. 
+
+### Int
+
+With computer science we can continue our journey and think of items as power of 2s. That being said, an int consists of 4 bytes or 
