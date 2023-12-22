@@ -61,7 +61,7 @@ There are two main types of data, primitive data types and non-primitive data ty
 
 ### Byte
 
-A byte is probably the simplest data type there is besides a boolean. This data type has a size of 1 byte or 8 bits in other words. This means that the data type can hold numbers from -128 to 127 or you can think of this as power of 2s in that 2^8 is 1 byte. 
+A byte is probably the simplest data type there is besides a boolean. This data type has a size of 1 byte or 8 bits in other words. This means that the data type can hold numbers from -128 to 127 or you can think of this as power of 2s in that 2^8 is 1 byte. This can be used instead of any other data types dealing with numbers to save on memory when you know that a certain value will never be out of -128 to 127 range. 
 
 ### Short
 
@@ -69,4 +69,10 @@ A short is the next one up from a singe byte. A shirt consists of 2 bytes or 16 
 
 ### Int
 
-With computer science we can continue our journey and think of items as power of 2s. That being said, an int consists of 4 bytes or 
+With computer science we can continue our journey and think of items as power of 2s. That being said, an int consists of 4 bytes or 32 bits. You can probably make the connection of "32-bit machines". The int data type can store whole number from -2147483648 to 2147483647. The int data type will most likely be the preferred data type when we create variables with whol en numbers during this course. 
+
+### Long 
+
+The long datat type can store whole numbers -9223372036854775808 to 9223372036854775807. This is used when we have values that int can't store. We can also make a connection here to "64-but machines". That beings said, a long consists of 8 bytes or 64 bits. 
+
+
