@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 As you guys can see there is a lot to learn about Java and OOP and I wanted to congratulate you on your first program with "Hello World", here we will go a little deeper on the synatx and some of the things we can implement with output. Another great question is, "since we can put some output on the screen, couldn't we get user input?" That is entirely correct! So we will be leveraging some user input as well as various data types since we might want to add things like numbers, letters, special characters! The sky is the limit with user input or even predefined input, but before that we must talk about different data types and how the computer sees that data types. 
 
