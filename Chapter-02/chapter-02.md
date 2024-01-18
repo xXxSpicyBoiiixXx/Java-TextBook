@@ -55,9 +55,11 @@ Hence, both have their places on formatting outputs to the user.
 
 As you can see from above, we were able to make Java speak to us. Well sort of, what we were printing to the screen is known as a certain data type called a `String` and this is how the computer will see this. There are many other data types such as numbers, decimals, characters, and much more since our world is a bit complicated and a computer's world is just a bunch of 0s and 1s. We must take into account each of these data types. So let's talk about different data types and their properties. 
 
-There are two main types of data, primitive data types and non-primitive data types. Primitive data types consist of byte, short, int, long, double, boolean, and char. Non-primitive data tpyes include String, Arrays, and Classes. 
+There are two main types of data, primitive data types and non-primitive (reference) data types. Primitive data types consist of byte, short, int, long, double, boolean, and char. Non-primitive or reference data tpyes include String, Arrays, and Classes. 
 
 ## Primitive Data Types
+
+## Add the data types here for numbers
 
 ### Byte
 
@@ -74,5 +76,13 @@ With computer science we can continue our journey and think of items as power of
 ### Long 
 
 The long datat type can store whole numbers -9223372036854775808 to 9223372036854775807. This is used when we have values that int can't store. We can also make a connection here to "64-but machines". That beings said, a long consists of 8 bytes or 64 bits. 
+
+### Double
+
+### Boolean
+
+### Char 
+
+## Reference (Non-Primitive) Data Types
 
 
