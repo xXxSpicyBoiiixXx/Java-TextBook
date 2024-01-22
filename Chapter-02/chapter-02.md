@@ -49,17 +49,29 @@ Output:
 
 Hence, both have their places on formatting outputs to the user.
 
-## Input
-
 ## Different Data Types
 
 As you can see from above, we were able to make Java speak to us. Well sort of, what we were printing to the screen is known as a certain data type called a `String` and this is how the computer will see this. There are many other data types such as numbers, decimals, characters, and much more since our world is a bit complicated and a computer's world is just a bunch of 0s and 1s. We must take into account each of these data types. So let's talk about different data types and their properties. 
 
 There are two main types of data, primitive data types and non-primitive (reference) data types. Primitive data types consist of byte, short, int, long, double, boolean, and char. Non-primitive or reference data tpyes include String, Arrays, and Classes. 
 
+The main difference between primitive and non-primitive data types are: 
+
+- Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+
+- Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+
+- A primitive type has always a value, while non-primitive types can be null.
+
+- A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+
 ## Primitive Data Types
 
-## Add the data types here for numbers
+Primitive number types are divided into Integer types and Floating types.
+
+Integer types can be seen as storing whole numbers, positive or negative without any decimals. Valid types are byte, short, int, and long. 
+
+Floating types are fractional in nature, containing one or more decimals. There are two floating types, float and double. 
 
 ### Byte
 
@@ -75,14 +87,44 @@ With computer science we can continue our journey and think of items as power of
 
 ### Long 
 
-The long datat type can store whole numbers -9223372036854775808 to 9223372036854775807. This is used when we have values that int can't store. We can also make a connection here to "64-but machines". That beings said, a long consists of 8 bytes or 64 bits. 
+The long data type can store whole numbers -9223372036854775808 to 9223372036854775807. This is used when we have values that int can't store. We can also make a connection here to "64-but machines". That beings said, a long consists of 8 bytes or 64 bits. 
 
-### Double
+### Float and Double
+
+The float and double data types can store fractional numbers as we stated before. If you would like to use floats, we will need to tack an "f" at the end and likewise wiht doubles where a "d" will be at the end. 
+
+float number = 1.23f;
+
+double number = 2.34d;
+
+So the big question, when do I use float and when do I use double? Well, we can see this through the amount of precision we need. Precision indicates how many digits the value can have after the deimal point. In this sense, floats can store up to seven decimal digits, while doubles can have up to 15 digits.
 
 ### Boolean
 
+Probably the most fundamental part of computer science is the boolean type. This data type will show up consistently throughout your professional and academic endevours. This is often due to the yes or no, on or off, true or false nature of this data type. 
+
+Java will see a boolean data type as either the values "true" or "false". 
+
 ### Char 
+
+The char data type is used to store a single character, for example like a letter grade. You will typically surround this with singe quotes like 'A', 'a', 'B', etc.
 
 ## Reference (Non-Primitive) Data Types
 
+These data types include Strings, Arrays, Classes, Interface. We will discuss these in more depth later in chapters when we get coser to pass by reference logic. For now, just know that they exist.
 
+## Type Casting
+
+Type casting is something you will come across computer science much of the time but this is when we change our data type. For example, if we had a int and we wanted to change that to a short or vice versa. The tricky part is seeing if you are not going out of bounds. There are two type of casting, widening and narrowing. 
+
+### Widening Casting 
+
+Widening casting is done automatically by Java. This is a scenario where a smaller type converts to a larger type. The order would be 
+
+byte -> short -> char -> int -> long -> float -> double
+
+### Narrowing Casting 
+
+As you might expect, narrowing casting is where you go from a bigger data type to a smaller one. Unlike widening casting, you must do this manually. This is shown in the example code. 
+
+double -> float -> long -> int -> char -> short -> byte
