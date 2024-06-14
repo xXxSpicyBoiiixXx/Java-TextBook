@@ -1,89 +1,67 @@
 /*
  * FILE: Main.java
  * USAGE: -- 
- * DESCRIPTION: A 'hello world' program written in java
+ * DESCRIPTION: This section goes over Java's printing, comments, vairables, 
+ *              data types, type casting, and operators. 
  * OPTIONS: -- 
  * REQUIREMENTS: --
  * BUGS: -- 
  * AUTHOR: xXxSpicyBoiiixXx (Md Ali)
  * ORGANIZATION: -- 
  * VERSION: 1.0
- * CREATED: 11/26/2023
+ * CREATED: 07/14/2024
  * REVISTION: -- 
  */
 
-/*
- *  Every line of code that runs in Java must
- *  be inside a "class". In our example, we 
- *  named the class "Main". A class should 
- *  always start with an uppercase first 
- *  letter. 
- *
- *  Note: Java is case-sensitive: "MyClass"
- *  and "myclass" has different meaning.
- *
- *  The name of the java file MUST MATCH the 
- *  class name. When saving the file, save it 
- *  using the class name and add ".java" to 
- *  the end of the filename.
- */
 
 public class Main { 
     public static void main(String[] args) {
+        
+        /* As we saw in chapter 1, hello world was able to print to the screen
+         * with `println()` method to outut values or print text in Java:
+         */
+
         System.out.println("Hello World");
+
+        /* We can do this is as muhc as we like. I want to point out that every
+         * time we call `println()` a new line will appear for the text such as
+         */
+
+        System.out.println("Hello World");
+        System.out.println("Is this really a computer?");
+        System.out.println("Wow, Java is pretty neat!");
+
+        /* Another thing to note is that when you're working with any form of text
+         * you will want to wrap it inside double quotation marks "" otherwise 
+         * you will get a compile error" 
+         */
+
+        System.out.println("This will work");
+        //System.out.println(This will cause an error);
+        
+        /* So now we know how to print things, how do I get things on the smae line?
+         * Well we have a method for that as well which is just `print()` method, which 
+         * like the `println()` but instead of adding a new line we will print on the 
+         * same line as shown below.
+         *
+         * Note how I put an extra space, otherwise it would look weird and be together.
+         */
+
+        System.out.print("I am the first part of the sentence");
+        System.out.print(" and here I am, the second part of the sentence!");
+
+        /* We can also use the same print functions to print numbers! The only thing that 
+         * would be different is that we don't have put them in double quotes
+         */
+
+        System.out.println(8);
+        System.out.println(8888);
+        System.out.println(8888888);
+
+        // Also we can do matematical calculations inside of these methods.
+        
+        System.out.println(2 + 2);
+        System.out.println(8 * 8);
+
     }
 }
-
-// The Main Method
-
-/*
- *  The "main()" method is required and you 
- *  will see it in every Java program: 
- *
- *  public static void main(String[] args)
- *
- *  Any code inside the "main()" method 
- *  will be executed. Don't worry about the 
- *  keywords before and after main for now. 
- *  We will discuss them here shortly. 
- *
- *  For now, just rememeber that every Java
- *  program has a "class" name which must 
- *  match the filename, and that every
- *  program must contain the "main()" method. 
- */
-
-// System.out.println() 
-
-/*
- *  Inside the "main()" method, we can use 
- *  the "println()" method to print a line
- *  of text to the screen such as: 
- *
- *  System.out.println("your text"); 
- *
- */
-
-// Some other notes... 
-
-/*
- *  The curly braces "{}" marks he beginning
- *  and he end of a block of code.
- *
- *  "System" is a built-in Java class that
- *  contains useful members, such as "out",
- *  which is short for "output". The 
- *  "println()" method, short for 
- *  "print line", is used to print a value 
- *  to the screen (or a file).
- *
- *  Don't worry too much about "System",
- *  "out", and "println()". Just know that 
- *  you need them together to print stuff to
- *  the screen. 
- *
- *  You should also note that each code 
- *  statement must end with a semicolon ";".
- *  You can think of this like a period in 
- *  a sentence.
- */

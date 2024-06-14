@@ -133,18 +133,8 @@ double -> float -> long -> int -> char -> short -> byte
 
 Operators are used to perform operations on variables and values. Java divides the operators into the following groups: 
 
-- Arithmetic operators
-- Assignment operators
-- Comparison operators
-- Logical operators
-- Bitwise operators
-
-### Arithmetic Operators
-
-### Assignment Operators
-
-### Comparison Operators
-
-### Logical Operators
-
-### Bitwise Operators 
+- Arithmetic operators: used to perform common mathematical operations.
+- Assignment operators: used to assign values to variables.
+- Comparison operators: used to compare two values (or variables). 
+- Logical operators: used to determine the logic between variables or values.
+- Bitwise operators: used to work with individual bits.
