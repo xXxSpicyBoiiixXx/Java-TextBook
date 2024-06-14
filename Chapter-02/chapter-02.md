@@ -128,3 +128,23 @@ byte -> short -> char -> int -> long -> float -> double
 As you might expect, narrowing casting is where you go from a bigger data type to a smaller one. Unlike widening casting, you must do this manually. This is shown in the example code. 
 
 double -> float -> long -> int -> char -> short -> byte
+
+### Java Operators
+
+Operators are used to perform operations on variables and values. Java divides the operators into the following groups: 
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators
+- Bitwise operators
+
+### Arithmetic Operators
+
+### Assignment Operators
+
+### Comparison Operators
+
+### Logical Operators
+
+### Bitwise Operators 
